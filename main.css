@@ -12,7 +12,31 @@
     /* margin: 0 300px 0 300px; */
     /* margin: 0 300px; */
     margin: 0 auto;
+}
+.slider {
+    height: 500px;
+    background: yellow;
 
-
-    
+}
+.slide {
+    width: 1000px;
+    background: green;
+    margin: 0 auto;
+}
+.cardsection {
+    height: 400px;
+    background: violet;
+}
+.card {
+    width: 1000px;
+    background: gray;
+    margin: 0 auto;
+}
+.footer {
+    height: 100px;
+    background:brown;
+}
+.footer >p{
+    text-align: center;
+    padding-top: 40px;
 }
