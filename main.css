@@ -23,6 +23,7 @@ body {
 }
 .menu {
     float: left;
+    margin: 0 90px;
 }
 .menu > ul {
     list-style-type:none;
@@ -30,6 +31,7 @@ body {
 .menu >ul>li {
   float: left;
   padding: 15px 20px;
+  cursor: pointer;
 }
 .socialmedia {
     float: left; 
@@ -41,8 +43,11 @@ body {
   float: left;
   padding: 15px;
 }
+.fab {
+    cursor: pointer;
+}
 .slider {
-    height: 500px;
+    height: 600px;
     /* background: yellow; */
 
 }
@@ -60,6 +65,7 @@ body {
  .slide >h3 {
     text-align: center;
     margin: 0;
+    padding-top: 200px;
 
 }
 .slide >h2 {
@@ -68,24 +74,55 @@ body {
 .slide >p {
     text-align: center;
 } 
+
 .cardsection {
-    height: 400px;
-    background: violet;
+    height: 350px;
+    /* background: violet; */
 }
 .card {
     width: 1000px;
     /* background: gray; */
-    margin: 0 auto;
+    margin: 15px auto;
 }
-.leftcard,.centercard,.rightcard {
+.leftcard {
     float: left;
+    width: 300px;
+}
+.leftcard > button, .centercard >button, .rightcard >button {
+    display: block;
+    margin: 15px auto;
+    border: 0;
+    background: brown;
+    color: #ffffff;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.leftcard > h3, .centercard >h3, .rightcard >h3 {
+  text-align: center;
+}
+.leftcard > p, .centercard >p, .rightcard >p {
+    text-align: center;
+  }
+.centercard {
+    float: left;
+    width: 300px;
+    padding: 0 50px;
+}
+.rightcard {
+    float: left;
+    width: 300px;
+
 }
 .footer {
     height: 100px;
-    /* background:brown; */
+    background:brown;
 }
 .footer >p{
     text-align: center;
     padding-top: 40px;
     margin: 0;
+    color: #ffffff;
 }
