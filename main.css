@@ -20,6 +20,10 @@ body {
 }
 .logo {
     float: left;
+    
+}
+.logo > h1 {
+    font-family: 'Courgette', cursive;
 }
 .menu {
     float: left;
@@ -70,6 +74,7 @@ body {
 }
 .slide >h2 {
     text-align: center;
+    font-family: 'Fontdiner Swanky', cursive;
 }
 .slide >p {
     text-align: center;
@@ -102,9 +107,11 @@ body {
 }
 .leftcard > h3, .centercard >h3, .rightcard >h3 {
   text-align: center;
+  font-family: 'Handlee', cursive;
 }
 .leftcard > p, .centercard >p, .rightcard >p {
     text-align: center;
+    color: gray
   }
 .centercard {
     float: left;
